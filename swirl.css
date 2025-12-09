@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+h1{
+    color: purple;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+ h3:hover{
+    font-family:"classic",Arial, sans-serif;
+    text-transform:lowercase; 
+}
+ h1:hover{
+    font-family:"classic",Arial, sans-serif;
+    text-transform: lowercase;
+}
+button{
+    background-color: yellow;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+.an{
+    margin-right: 20px
+}
+.s{
+    margin-left: 20px}
+    .rick{
+    margin-top: 30px;
+    }
+.i{
+    font-family:"classic",Arial, sans-serif;
+    font-size: 25px;
+}
+@font-face {
+    font-family: "classic";
+    src: url(MonsieurLaDoulaise-Regular.ttf);
+}
+    @media only screen and (max-width: 768px) {
+        .container {
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 1.5em;
+        }
+    }
